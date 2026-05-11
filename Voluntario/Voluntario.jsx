@@ -7,12 +7,13 @@ export default function Voluntario() {
     return (
         <section>
             <div>
-                <div className={css.titulo}>
-                    <Titulo titulo={'Voluntarie-se!'} cor={'rosa'}/>
-                    <p>Mande uma mensagem para a ONG para se voluntariar</p>
-                </div>
                 <div className={css.conteudo}>
                     <div className={css.mensagem}>
+                        <div className={css.titulo}>
+                            <Titulo titulo={'Voluntarie-se!'} cor={'rosa'}/>
+                            <p>Mande uma mensagem para a ONG para se voluntariar</p>
+                        </div>
+
                         <Input label={'Mensagem'} type={'text'} textarea={true} input={'Digite a mensagem para a ONG'}/>
                         <div className={css.botoes}>
                             <Botao texto={'Voltar'} cor={'vazadorosa'}/>

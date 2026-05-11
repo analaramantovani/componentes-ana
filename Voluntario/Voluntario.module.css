@@ -1,13 +1,11 @@
 .titulo{
     margin-top: 4rem;
-    margin-left: -50rem;
 }
 
 .titulo p{
     text-align: center;
     font-size: 0.9rem;
     font-weight: 500;
-    margin-left: 4rem;
 }
 
 .botoes{
@@ -16,6 +14,8 @@
     gap: 1rem;
     justify-content: center;
     margin-top: 2rem;
+    margin-left: 6rem;
+
 
 }
 .conteudo{
@@ -31,6 +31,6 @@
 }
 
 .imagem{
-    width: 400px;
-    height: 450px;
+    width: auto;
+    height: 500px;
 }
