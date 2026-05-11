@@ -1,0 +1,36 @@
+.titulo{
+    margin-top: 4rem;
+    margin-left: -50rem;
+}
+
+.titulo p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+
+.botoes{
+    display: flex;
+    max-width: 15rem;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.conteudo{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.mensagem{
+    width: 30rem;
+    margin-bottom: 4rem;
+}
+
+.imagem{
+    width: 400px;
+    height: 450px;
+}
